@@ -1,0 +1,133 @@
+:root {
+    --rich-black: #0d1b1eff;
+    --air-superiority-blue: #7798abff;
+    --tea-green: #c3dbc5ff;
+    --dutch-white: #e8dcb9ff;
+    --mimi-pink: #f2cee6ff;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--mimi-pink);
+    color: var(--rich-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-profile {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+header h1 {
+    position: absolute;
+    left: 10%;
+}
+
+header div {
+    border: 1px solid black;
+}
+
+header img {
+    height: auto;
+    max-width: 300px;
+}
+
+.about {
+    padding: 1rem;
+    max-width: 450px;
+}
+
+.about div {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+/* Body Styling */
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 275px);
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.work-grid h2 {
+    grid-column: 1 / -1;
+    margin: 0;
+}
+
+.project {
+    box-shadow: 2px 2px 5px;
+}
+
+.description {
+    padding: 0rem 1.5rem;
+}
+
+.description p {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.description-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.description-header h3 {
+    margin-right: auto;
+}
+
+.screenshot {
+    background-color: var(--air-superiority-blue);
+    text-align: center;
+    padding: 100px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--mimi-pink);
+    color: var(--rich-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer div {
+    border: 1px solid black;
+}
+
+.contact {
+    position: relative;
+    padding: 1rem;
+    max-width: 250px;
+}
+
+.contact div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+footer img{
+    height: auto;
+    max-width: 600px;
+}
+
+/* Generic Stylings */
+.icons {
+    height: auto;
+    max-width: 2rem;
+}
